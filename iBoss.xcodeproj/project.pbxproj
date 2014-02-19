@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				E5C7DCD3189652CC0012A1F8 /* iBoss */,
-				E5C7DCF2189652CC0012A1F8 /* LoginTestTests */,
+				E5C7DCF2189652CC0012A1F8 /* iBossTests */,
 				E5C7DCCC189652CC0012A1F8 /* Frameworks */,
 				E5C7DCCB189652CC0012A1F8 /* Products */,
 			);
@@ -151,8 +151,7 @@
 				E5C7DCE5189652CC0012A1F8 /* Images.xcassets */,
 				E5C7DCD4189652CC0012A1F8 /* Supporting Files */,
 			);
-			name = iBoss;
-			path = LoginTest;
+			path = iBoss;
 			sourceTree = "<group>";
 		};
 		E5C7DCD4189652CC0012A1F8 /* Supporting Files */ = {
@@ -172,12 +171,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E5C7DCF2189652CC0012A1F8 /* LoginTestTests */ = {
+		E5C7DCF2189652CC0012A1F8 /* iBossTests */ = {
 			isa = PBXGroup;
 			children = (
 				E5C7DCF8189652CC0012A1F8 /* LoginTestTests.m */,
 				E5C7DCF3189652CC0012A1F8 /* Supporting Files */,
 			);
+			name = iBossTests;
 			path = LoginTestTests;
 			sourceTree = "<group>";
 		};
@@ -207,7 +207,7 @@
 			dependencies = (
 			);
 			name = iBoss;
-			productName = LoginTest;
+			productName = iBoss;
 			productReference = E5C7DCCA189652CC0012A1F8 /* iBoss.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -445,8 +445,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoginTest/iBoss-Prefix.pch";
-				INFOPLIST_FILE = "LoginTest/iBoss-Info.plist";
+				GCC_PREFIX_HEADER = "iBoss/iBoss-Prefix.pch";
+				INFOPLIST_FILE = "iBoss/iBoss-Info.plist";
 				PRODUCT_NAME = iBoss;
 				WRAPPER_EXTENSION = app;
 			};
@@ -458,8 +458,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoginTest/iBoss-Prefix.pch";
-				INFOPLIST_FILE = "LoginTest/iBoss-Info.plist";
+				GCC_PREFIX_HEADER = "iBoss/iBoss-Prefix.pch";
+				INFOPLIST_FILE = "iBoss/iBoss-Info.plist";
 				PRODUCT_NAME = iBoss;
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,7 +476,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoginTest/LoginTest-Prefix.pch";
+				GCC_PREFIX_HEADER = "iBoss/LoginTest-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",

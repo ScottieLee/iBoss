@@ -10,4 +10,27 @@
 
 @implementation MusicPlayerState
 
+//Singleton
+
+static MusicPlayerState* musicPlayerStateInstance = nil;
+- (id) init
+{
+    if (self = [super init]){
+        _playState = STOP;
+        _songName = @"";
+        _volume = 25;
+    }
+    return self;
+}
+
++ (MusicPlayerState*) sharedMusicPlayerState
+{
+    @synchronized(self){
+        if (!musicPlayerStateInstance) {
+            musicPlayerStateInstance = [[MusicPlayerState alloc] init];
+        }
+    }
+    return musicPlayerStateInstance;
+}
+
 @end

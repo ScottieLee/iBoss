@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E5C7DCC9189652CC0012A1F8"
-               BuildableName = "LoginTest.app"
-               BlueprintName = "LoginTest"
-               ReferencedContainer = "container:LoginTest.xcodeproj">
+               BuildableName = "iBoss.app"
+               BlueprintName = "iBoss"
+               ReferencedContainer = "container:iBoss.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E5C7DCEA189652CC0012A1F8"
-               BuildableName = "LoginTestTests.xctest"
-               BlueprintName = "LoginTestTests"
-               ReferencedContainer = "container:LoginTest.xcodeproj">
+               BuildableName = "iBossTests.xctest"
+               BlueprintName = "iBossTests"
+               ReferencedContainer = "container:iBoss.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5C7DCC9189652CC0012A1F8"
-            BuildableName = "LoginTest.app"
-            BlueprintName = "LoginTest"
-            ReferencedContainer = "container:LoginTest.xcodeproj">
+            BuildableName = "iBoss.app"
+            BlueprintName = "iBoss"
+            ReferencedContainer = "container:iBoss.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5C7DCC9189652CC0012A1F8"
-            BuildableName = "LoginTest.app"
-            BlueprintName = "LoginTest"
-            ReferencedContainer = "container:LoginTest.xcodeproj">
+            BuildableName = "iBoss.app"
+            BlueprintName = "iBoss"
+            ReferencedContainer = "container:iBoss.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5C7DCC9189652CC0012A1F8"
-            BuildableName = "LoginTest.app"
-            BlueprintName = "LoginTest"
-            ReferencedContainer = "container:LoginTest.xcodeproj">
+            BuildableName = "iBoss.app"
+            BlueprintName = "iBoss"
+            ReferencedContainer = "container:iBoss.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

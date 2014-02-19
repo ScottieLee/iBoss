@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E598E1D618B470470076D944 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E598E1D518B470470076D944 /* MusicViewController.m */; };
+		E598E1D918B484400076D944 /* MusicPlayerState.m in Sources */ = {isa = PBXBuildFile; fileRef = E598E1D818B484400076D944 /* MusicPlayerState.m */; };
+		E5B8080B18991233006C8287 /* iBossTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B8080A18991233006C8287 /* iBossTabBarViewController.m */; };
+		E5C01DD81897986500280EAE /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C01DD51897986500280EAE /* AsyncSocket.m */; };
+		E5C01DD91897986500280EAE /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C01DD71897986500280EAE /* AsyncUdpSocket.m */; };
 		E5C7DCCE189652CC0012A1F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7DCCD189652CC0012A1F8 /* Foundation.framework */; };
 		E5C7DCD0189652CC0012A1F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7DCCF189652CC0012A1F8 /* CoreGraphics.framework */; };
 		E5C7DCD2189652CC0012A1F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7DCD1189652CC0012A1F8 /* UIKit.framework */; };
@@ -14,13 +19,15 @@
 		E5C7DCDA189652CC0012A1F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7DCD9189652CC0012A1F8 /* main.m */; };
 		E5C7DCDE189652CC0012A1F8 /* LoginTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7DCDD189652CC0012A1F8 /* LoginTestAppDelegate.m */; };
 		E5C7DCE1189652CC0012A1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DCDF189652CC0012A1F8 /* Main.storyboard */; };
-		E5C7DCE4189652CC0012A1F8 /* LoginTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7DCE3189652CC0012A1F8 /* LoginTestViewController.m */; };
+		E5C7DCE4189652CC0012A1F8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7DCE3189652CC0012A1F8 /* LoginViewController.m */; };
 		E5C7DCE6189652CC0012A1F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DCE5189652CC0012A1F8 /* Images.xcassets */; };
 		E5C7DCED189652CC0012A1F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7DCEC189652CC0012A1F8 /* XCTest.framework */; };
 		E5C7DCEE189652CC0012A1F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7DCCD189652CC0012A1F8 /* Foundation.framework */; };
 		E5C7DCEF189652CC0012A1F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7DCD1189652CC0012A1F8 /* UIKit.framework */; };
 		E5C7DCF7189652CC0012A1F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DCF5189652CC0012A1F8 /* InfoPlist.strings */; };
 		E5C7DCF9189652CC0012A1F8 /* LoginTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7DCF8189652CC0012A1F8 /* LoginTestTests.m */; };
+		E5C7DD451896984F0012A1F8 /* NetworkStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7DD441896984F0012A1F8 /* NetworkStream.m */; };
+		E5E262B2189951E90074A27C /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E262B1189951E90074A27C /* VideoTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +41,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E5C7DCCA189652CC0012A1F8 /* LoginTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E598E1D418B470470076D944 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		E598E1D518B470470076D944 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		E598E1D718B484400076D944 /* MusicPlayerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerState.h; sourceTree = "<group>"; };
+		E598E1D818B484400076D944 /* MusicPlayerState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerState.m; sourceTree = "<group>"; };
+		E5B8080918991233006C8287 /* iBossTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBossTabBarViewController.h; sourceTree = "<group>"; };
+		E5B8080A18991233006C8287 /* iBossTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iBossTabBarViewController.m; sourceTree = "<group>"; };
+		E5C01DD41897986500280EAE /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = RunLoop/AsyncSocket.h; sourceTree = "<group>"; };
+		E5C01DD51897986500280EAE /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = RunLoop/AsyncSocket.m; sourceTree = "<group>"; };
+		E5C01DD61897986500280EAE /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = RunLoop/AsyncUdpSocket.h; sourceTree = "<group>"; };
+		E5C01DD71897986500280EAE /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = RunLoop/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		E5C7DCCA189652CC0012A1F8 /* iBoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C7DCCD189652CC0012A1F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E5C7DCCF189652CC0012A1F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E5C7DCD1189652CC0012A1F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E5C7DCD5189652CC0012A1F8 /* LoginTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginTest-Info.plist"; sourceTree = "<group>"; };
+		E5C7DCD5189652CC0012A1F8 /* iBoss-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBoss-Info.plist"; sourceTree = "<group>"; };
 		E5C7DCD7189652CC0012A1F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5C7DCD9189652CC0012A1F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E5C7DCDB189652CC0012A1F8 /* LoginTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginTest-Prefix.pch"; sourceTree = "<group>"; };
+		E5C7DCDB189652CC0012A1F8 /* iBoss-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBoss-Prefix.pch"; sourceTree = "<group>"; };
 		E5C7DCDC189652CC0012A1F8 /* LoginTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTestAppDelegate.h; sourceTree = "<group>"; };
 		E5C7DCDD189652CC0012A1F8 /* LoginTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTestAppDelegate.m; sourceTree = "<group>"; };
 		E5C7DCE0189652CC0012A1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E5C7DCE2189652CC0012A1F8 /* LoginTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTestViewController.h; sourceTree = "<group>"; };
-		E5C7DCE3189652CC0012A1F8 /* LoginTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTestViewController.m; sourceTree = "<group>"; };
+		E5C7DCE2189652CC0012A1F8 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E5C7DCE3189652CC0012A1F8 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		E5C7DCE5189652CC0012A1F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E5C7DCEB189652CC0012A1F8 /* LoginTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C7DCEB189652CC0012A1F8 /* iBossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C7DCEC189652CC0012A1F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E5C7DCF4189652CC0012A1F8 /* LoginTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginTestTests-Info.plist"; sourceTree = "<group>"; };
+		E5C7DCF4189652CC0012A1F8 /* iBossTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBossTests-Info.plist"; sourceTree = "<group>"; };
 		E5C7DCF6189652CC0012A1F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5C7DCF8189652CC0012A1F8 /* LoginTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTestTests.m; sourceTree = "<group>"; };
+		E5C7DD431896984F0012A1F8 /* NetworkStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkStream.h; sourceTree = "<group>"; };
+		E5C7DD441896984F0012A1F8 /* NetworkStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkStream.m; sourceTree = "<group>"; };
+		E5C7DD461896B04D0012A1F8 /* CodeDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeDef.h; sourceTree = "<group>"; };
+		E5E262B0189951E90074A27C /* VideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewController.h; sourceTree = "<group>"; };
+		E5E262B1189951E90074A27C /* VideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +104,7 @@
 		E5C7DCC1189652CC0012A1F8 = {
 			isa = PBXGroup;
 			children = (
-				E5C7DCD3189652CC0012A1F8 /* LoginTest */,
+				E5C7DCD3189652CC0012A1F8 /* iBoss */,
 				E5C7DCF2189652CC0012A1F8 /* LoginTestTests */,
 				E5C7DCCC189652CC0012A1F8 /* Frameworks */,
 				E5C7DCCB189652CC0012A1F8 /* Products */,
@@ -92,8 +114,8 @@
 		E5C7DCCB189652CC0012A1F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5C7DCCA189652CC0012A1F8 /* LoginTest.app */,
-				E5C7DCEB189652CC0012A1F8 /* LoginTestTests.xctest */,
+				E5C7DCCA189652CC0012A1F8 /* iBoss.app */,
+				E5C7DCEB189652CC0012A1F8 /* iBossTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,27 +131,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5C7DCD3189652CC0012A1F8 /* LoginTest */ = {
+		E5C7DCD3189652CC0012A1F8 /* iBoss */ = {
 			isa = PBXGroup;
 			children = (
-				E5C7DCDC189652CC0012A1F8 /* LoginTestAppDelegate.h */,
-				E5C7DCDD189652CC0012A1F8 /* LoginTestAppDelegate.m */,
 				E5C7DCDF189652CC0012A1F8 /* Main.storyboard */,
-				E5C7DCE2189652CC0012A1F8 /* LoginTestViewController.h */,
-				E5C7DCE3189652CC0012A1F8 /* LoginTestViewController.m */,
+				E598E1D718B484400076D944 /* MusicPlayerState.h */,
+				E598E1D818B484400076D944 /* MusicPlayerState.m */,
+				E598E1D418B470470076D944 /* MusicViewController.h */,
+				E598E1D518B470470076D944 /* MusicViewController.m */,
+				E5E262B0189951E90074A27C /* VideoTableViewController.h */,
+				E5E262B1189951E90074A27C /* VideoTableViewController.m */,
+				E5B8080918991233006C8287 /* iBossTabBarViewController.h */,
+				E5B8080A18991233006C8287 /* iBossTabBarViewController.m */,
+				E5C7DD431896984F0012A1F8 /* NetworkStream.h */,
+				E5C7DD441896984F0012A1F8 /* NetworkStream.m */,
+				E5C7DD461896B04D0012A1F8 /* CodeDef.h */,
+				E5C7DCE2189652CC0012A1F8 /* LoginViewController.h */,
+				E5C7DCE3189652CC0012A1F8 /* LoginViewController.m */,
 				E5C7DCE5189652CC0012A1F8 /* Images.xcassets */,
 				E5C7DCD4189652CC0012A1F8 /* Supporting Files */,
 			);
+			name = iBoss;
 			path = LoginTest;
 			sourceTree = "<group>";
 		};
 		E5C7DCD4189652CC0012A1F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5C7DCD5189652CC0012A1F8 /* LoginTest-Info.plist */,
+				E5C01DD41897986500280EAE /* AsyncSocket.h */,
+				E5C01DD51897986500280EAE /* AsyncSocket.m */,
+				E5C01DD61897986500280EAE /* AsyncUdpSocket.h */,
+				E5C01DD71897986500280EAE /* AsyncUdpSocket.m */,
+				E5C7DCDC189652CC0012A1F8 /* LoginTestAppDelegate.h */,
+				E5C7DCDD189652CC0012A1F8 /* LoginTestAppDelegate.m */,
+				E5C7DCD5189652CC0012A1F8 /* iBoss-Info.plist */,
 				E5C7DCD6189652CC0012A1F8 /* InfoPlist.strings */,
 				E5C7DCD9189652CC0012A1F8 /* main.m */,
-				E5C7DCDB189652CC0012A1F8 /* LoginTest-Prefix.pch */,
+				E5C7DCDB189652CC0012A1F8 /* iBoss-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +184,7 @@
 		E5C7DCF3189652CC0012A1F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5C7DCF4189652CC0012A1F8 /* LoginTestTests-Info.plist */,
+				E5C7DCF4189652CC0012A1F8 /* iBossTests-Info.plist */,
 				E5C7DCF5189652CC0012A1F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,26 +193,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5C7DCC9189652CC0012A1F8 /* LoginTest */ = {
+		E5C7DCC9189652CC0012A1F8 /* iBoss */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5C7DCFC189652CC0012A1F8 /* Build configuration list for PBXNativeTarget "LoginTest" */;
+			buildConfigurationList = E5C7DCFC189652CC0012A1F8 /* Build configuration list for PBXNativeTarget "iBoss" */;
 			buildPhases = (
 				E5C7DCC6189652CC0012A1F8 /* Sources */,
 				E5C7DCC7189652CC0012A1F8 /* Frameworks */,
 				E5C7DCC8189652CC0012A1F8 /* Resources */,
+				E5C01DD3189786BF00280EAE /* Run Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LoginTest;
+			name = iBoss;
 			productName = LoginTest;
-			productReference = E5C7DCCA189652CC0012A1F8 /* LoginTest.app */;
+			productReference = E5C7DCCA189652CC0012A1F8 /* iBoss.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E5C7DCEA189652CC0012A1F8 /* LoginTestTests */ = {
+		E5C7DCEA189652CC0012A1F8 /* iBossTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5C7DCFF189652CC0012A1F8 /* Build configuration list for PBXNativeTarget "LoginTestTests" */;
+			buildConfigurationList = E5C7DCFF189652CC0012A1F8 /* Build configuration list for PBXNativeTarget "iBossTests" */;
 			buildPhases = (
 				E5C7DCE7189652CC0012A1F8 /* Sources */,
 				E5C7DCE8189652CC0012A1F8 /* Frameworks */,
@@ -185,9 +224,9 @@
 			dependencies = (
 				E5C7DCF1189652CC0012A1F8 /* PBXTargetDependency */,
 			);
-			name = LoginTestTests;
+			name = iBossTests;
 			productName = LoginTestTests;
-			productReference = E5C7DCEB189652CC0012A1F8 /* LoginTestTests.xctest */;
+			productReference = E5C7DCEB189652CC0012A1F8 /* iBossTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +244,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5C7DCC5189652CC0012A1F8 /* Build configuration list for PBXProject "LoginTest" */;
+			buildConfigurationList = E5C7DCC5189652CC0012A1F8 /* Build configuration list for PBXProject "iBoss" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +257,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5C7DCC9189652CC0012A1F8 /* LoginTest */,
-				E5C7DCEA189652CC0012A1F8 /* LoginTestTests */,
+				E5C7DCC9189652CC0012A1F8 /* iBoss */,
+				E5C7DCEA189652CC0012A1F8 /* iBossTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +284,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E5C01DD3189786BF00280EAE /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then /Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\";\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5C7DCC6189652CC0012A1F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C7DD451896984F0012A1F8 /* NetworkStream.m in Sources */,
+				E5B8080B18991233006C8287 /* iBossTabBarViewController.m in Sources */,
+				E5C01DD81897986500280EAE /* AsyncSocket.m in Sources */,
+				E598E1D618B470470076D944 /* MusicViewController.m in Sources */,
+				E598E1D918B484400076D944 /* MusicPlayerState.m in Sources */,
+				E5E262B2189951E90074A27C /* VideoTableViewController.m in Sources */,
 				E5C7DCDE189652CC0012A1F8 /* LoginTestAppDelegate.m in Sources */,
-				E5C7DCE4189652CC0012A1F8 /* LoginTestViewController.m in Sources */,
+				E5C01DD91897986500280EAE /* AsyncUdpSocket.m in Sources */,
+				E5C7DCE4189652CC0012A1F8 /* LoginViewController.m in Sources */,
 				E5C7DCDA189652CC0012A1F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +332,7 @@
 /* Begin PBXTargetDependency section */
 		E5C7DCF1189652CC0012A1F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5C7DCC9189652CC0012A1F8 /* LoginTest */;
+			target = E5C7DCC9189652CC0012A1F8 /* iBoss */;
 			targetProxy = E5C7DCF0189652CC0012A1F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -319,7 +382,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -358,7 +422,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -380,9 +445,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoginTest/LoginTest-Prefix.pch";
-				INFOPLIST_FILE = "LoginTest/LoginTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LoginTest/iBoss-Prefix.pch";
+				INFOPLIST_FILE = "LoginTest/iBoss-Info.plist";
+				PRODUCT_NAME = iBoss;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,9 +458,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoginTest/LoginTest-Prefix.pch";
-				INFOPLIST_FILE = "LoginTest/LoginTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LoginTest/iBoss-Prefix.pch";
+				INFOPLIST_FILE = "LoginTest/iBoss-Info.plist";
+				PRODUCT_NAME = iBoss;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -416,8 +481,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "LoginTestTests/LoginTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "LoginTestTests/iBossTests-Info.plist";
+				PRODUCT_NAME = iBossTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -435,8 +500,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginTest/LoginTest-Prefix.pch";
-				INFOPLIST_FILE = "LoginTestTests/LoginTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "LoginTestTests/iBossTests-Info.plist";
+				PRODUCT_NAME = iBossTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5C7DCC5189652CC0012A1F8 /* Build configuration list for PBXProject "LoginTest" */ = {
+		E5C7DCC5189652CC0012A1F8 /* Build configuration list for PBXProject "iBoss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5C7DCFA189652CC0012A1F8 /* Debug */,
@@ -454,21 +519,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5C7DCFC189652CC0012A1F8 /* Build configuration list for PBXNativeTarget "LoginTest" */ = {
+		E5C7DCFC189652CC0012A1F8 /* Build configuration list for PBXNativeTarget "iBoss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5C7DCFD189652CC0012A1F8 /* Debug */,
 				E5C7DCFE189652CC0012A1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E5C7DCFF189652CC0012A1F8 /* Build configuration list for PBXNativeTarget "LoginTestTests" */ = {
+		E5C7DCFF189652CC0012A1F8 /* Build configuration list for PBXNativeTarget "iBossTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5C7DD00189652CC0012A1F8 /* Debug */,
 				E5C7DD01189652CC0012A1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

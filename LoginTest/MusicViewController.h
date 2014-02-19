@@ -1,5 +1,5 @@
 //
-//  MusicTableViewController.h
+//  MusicViewController.h
 //  iBoss
 //
 //  Created by ScottLee on 14-1-29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MusicTableViewController : UIViewController < UITableViewDataSource,UITableViewDelegate >
+@interface MusicViewController : UIViewController < UITableViewDataSource,UITableViewDelegate >
 
 @end

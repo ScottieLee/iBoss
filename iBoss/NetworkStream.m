@@ -98,6 +98,8 @@ static NetworkStream* netWorkStreamInstance = nil;
 }
 - (void)onSocket:(AsyncSocket *)sock willDisconnectWithError:(NSError *)err {
     NSLog(@"Disconnecting. Error: %@", [err localizedDescription]);
+    [_sharedSocket setDelegate:nil];
+    _sharedSocket = nil;
     [_delegate connectionError];
 }
 

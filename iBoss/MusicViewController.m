@@ -86,19 +86,33 @@
 //}
 
 
-// This method is called when screen is locked
+// This method is called when screen is locked or app goes background
 - (void) applicationDidEnterBackground: (NSNotificationCenter*) notification
 {
+    NSLog(@"Become background");
     self.socket = nil;
-    self.networkStream.sharedSocket = nil; // Set the real socket instance to nil, so the real socket get dealloced
+    [self.socket readDataWithTimeout:-1 tag:0];
 }
 
-// This method is called when screen is unlocked
+// This method is called when screen is unlocked or app goes foreground
 - (void)applicationDidBecomeActive:(NSNotificationCenter*) notification
 {
+    //[self.socket readDataWithTimeout:-1 tag:0];
     NSLog(@"BecomeActive");
     self.socket = self.networkStream.sharedSocket; // Call the sharedSocket getter, this is a lazy initialization
+    
+    // Kind of a trick. Send a dummy data ,if disconnected, let app know its not connected and invoke connection error. Connection error will reconnect. else if its still connected, the server receives the CODENONE and just does nothing.
+    char dummyBytes[4] = { CODENONE, CODENONE, CODENONE, CODENONE};
+    NSData* dummyData = [NSData dataWithBytes:&dummyBytes length:4];
+    [self.socket writeData:dummyData withTimeout:-1 tag:0];
+
 }
+
+- (void) connectionError; // Failed to connect to socket server, reconnect
+{
+    self.socket = self.networkStream.sharedSocket; // Call the sharedSocket getter, this is a lazy initialization
+}
+
 // Delegation method for the networkstream
 - (void) connectionDone
 {
@@ -355,7 +369,7 @@
             int32_t index = (int32_t)indexPath.row;
             memcpy(MP + 4, &index, sizeof(int32_t));
             [self.socket writeData:[NSData dataWithBytes:MP length:DATA_OFFSET + sizeof(int32_t)] withTimeout:2 tag:1];
-            
+            NSLog(@"Write data");
             // set the playbutton to enabled and selected
             [self.playButton setEnabled:YES];
             [self.playButton setSelected:YES];
